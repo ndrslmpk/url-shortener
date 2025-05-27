@@ -41,7 +41,7 @@ onMounted(() => {
   store.fetchLinks()
 })
 
-const openLink = async(path: string) => {
+const openLink = async (path: string) => {
   try {
     // Can be improved to return full URL, but needs ENV variable or something to define the host for backend
     const hostUrl = "http://localhost:3000/"
