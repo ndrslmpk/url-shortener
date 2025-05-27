@@ -1,24 +1,15 @@
-# README
+# Start app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Check your current version of ruby with the .tool-versions file. We are using [asdf](https://asdf-vm.com/) to manage multiple versions per project.
 
-Things you may want to cover:
 
-* Ruby version
+Run `bundle install` to install all necessary dependencies to get the project running.
 
-* System dependencies
+Start the server with `rails server`.
 
-* Configuration
 
-* Database creation
+# tools
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+ruby 3.2.1
+```
